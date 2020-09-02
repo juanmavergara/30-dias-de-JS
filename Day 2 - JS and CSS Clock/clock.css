@@ -1,0 +1,31 @@
+html {
+  background: #018DED url(https://unsplash.it/1500/1000?image=881&blur=5);
+  background-size: cover;
+}
+
+#clock {
+  height: 30vw;
+  width: 30vw;
+  background: rgb(0, 0, 0, 0.4);
+  border: 20px solid white;
+  border-radius: 50%;
+  position: relative;
+  left: 30vw;
+  top: 20vh;
+}
+
+.hand {
+  height: 3px;
+  width: 40%;
+  background-color: black;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+}
+
+.smooth {
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0.93,-0.04, 0.79, 1.6);
+}
