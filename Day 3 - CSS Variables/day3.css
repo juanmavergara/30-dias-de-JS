@@ -1,0 +1,27 @@
+:root{
+  --baseColor: #ffc600;
+  --spacing: 10px;
+  --blur: 10px;
+}
+
+img {
+  padding: var(--spacing);
+  background-color: var(--baseColor);
+  filter: blur(var(--blur));
+}
+
+.hl {
+  color: var(--baseColor);
+}
+
+
+html {
+  background-color: rgb(43, 70, 120);
+  text-align: center;
+  color: white;
+}
+
+
+input {
+  margin-bottom: 3%;
+}
